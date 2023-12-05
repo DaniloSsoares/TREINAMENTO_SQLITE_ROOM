@@ -1,5 +1,4 @@
-package com.example.treinamento_sqlite_room.ui.theme.item
-
+package com.example.treinamento_sqlite_room.ui.ui.item
 import androidx.annotation.StringRes
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -36,17 +35,12 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.inventory.InventoryTopAppBar
 import com.example.inventory.R
 import com.example.inventory.data.Item
-import com.example.inventory.ui.AppViewModelProvider
-import com.example.inventory.ui.navigation.NavigationDestination
-import com.example.inventory.ui.theme.InventoryTheme
 import com.example.treinamento_sqlite_room.AppViewModelProvider
 import com.example.treinamento_sqlite_room.InventoryTopAppBar
-import com.example.treinamento_sqlite_room.R
-import com.example.treinamento_sqlite_room.data.Item
-import com.example.treinamento_sqlite_room.ui.theme.InventoryTheme
+import com.example.treinamento_sqlite_room.ui.ui.theme.InventoryTheme
+import com.example.treinamento_sqlite_room.ui.ui.navigation.NavigationDestination
 import kotlinx.coroutines.launch
 
 object ItemDetailsDestination : NavigationDestination {

@@ -1,16 +1,19 @@
 package com.example.treinamento_sqlite_room
 
+
 import android.app.Application
 import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory
 import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.example.inventory.InventoryApplication
 
-import com.example.treinamento_sqlite_room.ui.theme.home.HomeViewModel
-import com.example.treinamento_sqlite_room.ui.theme.item.ItemDetailsViewModel
-import com.example.treinamento_sqlite_room.ui.theme.item.ItemEditViewModel
-import com.example.treinamento_sqlite_room.ui.theme.item.ItemEntryViewModel
+import com.example.inventory.ui.item.ItemEditViewModel
+
+import com.example.treinamento_sqlite_room.ui.ui.home.HomeViewModel
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemDetailsViewModel
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemEntryViewModel
 
 /**
  * Provides Factory to create instance of ViewModel for the entire Inventory app

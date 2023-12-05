@@ -1,12 +1,10 @@
-package com.example.treinamento_sqlite_room.ui.theme.item
-
+package com.example.treinamento_sqlite_room.ui.ui.item
 
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
-import com.example.inventory.data.Item
-import com.example.inventory.data.ItemsRepository
+
 import com.example.treinamento_sqlite_room.data.Item
 import com.example.treinamento_sqlite_room.data.ItemsRepository
 import java.text.NumberFormat

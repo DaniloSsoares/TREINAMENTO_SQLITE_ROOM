@@ -1,4 +1,4 @@
-package com.example.treinamento_sqlite_room.ui.theme.navigation
+package com.example.treinamento_sqlite_room.ui.ui.navigation
 
 /**
  * Interface to describe the navigation destinations for the app

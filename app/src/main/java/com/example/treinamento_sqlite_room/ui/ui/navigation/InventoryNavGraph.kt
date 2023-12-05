@@ -1,6 +1,7 @@
-package com.example.treinamento_sqlite_room.ui.theme.navigation
+package com.example.treinamento_sqlite_room.ui.ui.navigation
 
 
+import HomeScreen
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
@@ -8,14 +9,13 @@ import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.example.inventory.ui.home.HomeDestination
-import com.example.inventory.ui.home.HomeScreen
-import com.example.inventory.ui.item.ItemDetailsDestination
-import com.example.inventory.ui.item.ItemDetailsScreen
-import com.example.inventory.ui.item.ItemEditDestination
-import com.example.inventory.ui.item.ItemEditScreen
-import com.example.inventory.ui.item.ItemEntryDestination
-import com.example.inventory.ui.item.ItemEntryScreen
+
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemDetailsDestination
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemDetailsScreen
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemEditDestination
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemEditScreen
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemEntryDestination
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemEntryScreen
 
 /**
  * Provides Navigation graph for the application.

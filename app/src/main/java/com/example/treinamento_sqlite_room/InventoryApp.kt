@@ -13,7 +13,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
-import com.example.treinamento_sqlite_room.ui.theme.navigation.InventoryNavHost
+import androidx.navigation.compose.rememberNavController
+import com.example.treinamento_sqlite_room.ui.ui.navigation.InventoryNavHost
 
 
 /**

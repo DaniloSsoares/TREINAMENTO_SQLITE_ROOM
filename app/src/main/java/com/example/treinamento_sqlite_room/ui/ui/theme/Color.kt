@@ -1,4 +1,4 @@
-package com.example.treinamento_sqlite_room.ui.theme
+package com.example.treinamento_sqlite_room.ui.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

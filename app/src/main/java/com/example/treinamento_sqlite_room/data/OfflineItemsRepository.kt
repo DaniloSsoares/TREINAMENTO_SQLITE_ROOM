@@ -1,6 +1,5 @@
 package com.example.treinamento_sqlite_room.data
 
-
 import kotlinx.coroutines.flow.Flow
 
 class OfflineItemsRepository(private val itemDao: ItemDao) : ItemsRepository {

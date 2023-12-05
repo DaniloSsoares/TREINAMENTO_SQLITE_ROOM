@@ -1,4 +1,4 @@
-package com.example.treinamento_sqlite_room.ui.theme.home
+package com.example.treinamento_sqlite_room.ui.ui.home
 
 
 import androidx.lifecycle.ViewModel
