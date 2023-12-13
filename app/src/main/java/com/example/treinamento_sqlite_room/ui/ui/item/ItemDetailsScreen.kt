@@ -36,9 +36,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.inventory.R
-import com.example.inventory.data.Item
 import com.example.treinamento_sqlite_room.AppViewModelProvider
 import com.example.treinamento_sqlite_room.InventoryTopAppBar
+import com.example.treinamento_sqlite_room.data.Item
 import com.example.treinamento_sqlite_room.ui.ui.theme.InventoryTheme
 import com.example.treinamento_sqlite_room.ui.ui.navigation.NavigationDestination
 import kotlinx.coroutines.launch
@@ -166,8 +166,7 @@ fun ItemDetails(
                 itemDetail = item.name,
                 modifier = Modifier.padding(
                     horizontal = dimensionResource(
-                        id = R.dimen
-                            .padding_medium
+                        id = R.dimen.padding_medium
                     )
                 )
             )
@@ -176,8 +175,7 @@ fun ItemDetails(
                 itemDetail = item.quantity.toString(),
                 modifier = Modifier.padding(
                     horizontal = dimensionResource(
-                        id = R.dimen
-                            .padding_medium
+                        id = R.dimen.padding_medium
                     )
                 )
             )
@@ -186,8 +184,7 @@ fun ItemDetails(
                 itemDetail = item.formatedPrice(),
                 modifier = Modifier.padding(
                     horizontal = dimensionResource(
-                        id = R.dimen
-                            .padding_medium
+                        id = R.dimen.padding_medium
                     )
                 )
             )

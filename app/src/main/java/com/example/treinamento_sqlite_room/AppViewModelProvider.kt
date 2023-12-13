@@ -7,9 +7,9 @@ import androidx.lifecycle.createSavedStateHandle
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import com.example.inventory.InventoryApplication
+import com.example.treinamento_sqlite_room.InventoryApplication
 
-import com.example.inventory.ui.item.ItemEditViewModel
+import com.example.treinamento_sqlite_room.ui.ui.item.ItemEditViewModel
 
 import com.example.treinamento_sqlite_room.ui.ui.home.HomeViewModel
 import com.example.treinamento_sqlite_room.ui.ui.item.ItemDetailsViewModel

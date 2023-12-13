@@ -10,11 +10,13 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
+
 import com.example.inventory.R
+
 import com.example.treinamento_sqlite_room.AppViewModelProvider
 import com.example.treinamento_sqlite_room.InventoryTopAppBar
-import com.example.treinamento_sqlite_room.ui.ui.theme.InventoryTheme
 import com.example.treinamento_sqlite_room.ui.ui.navigation.NavigationDestination
+import com.example.treinamento_sqlite_room.ui.ui.theme.InventoryTheme
 import kotlinx.coroutines.launch
 
 object ItemEditDestination : NavigationDestination {
