@@ -2,7 +2,6 @@ package com.example.treinamento_sqlite_room.ui.ui.theme
 
 
 
-
 import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
