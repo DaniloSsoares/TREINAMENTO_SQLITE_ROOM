@@ -14,6 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.inventory.R
 import com.example.treinamento_sqlite_room.ui.ui.navigation.InventoryNavHost
 
 
@@ -47,7 +48,7 @@ fun InventoryTopAppBar(
                 IconButton(onClick = navigateUp) {
                     Icon(
                         imageVector = Filled.ArrowBack,
-                        contentDescription = stringResource(string.back_button)
+                        contentDescription = stringResource(R.string.back_button) // Corrigindo a referência ao recurso de string
                     )
                 }
             }
